@@ -8,7 +8,7 @@ import LoadingSpinner from './LoadingSpinner'
 import TodoItem from './TodoItem'
 
 const FluidGrid = tw.div`grid grid-cols-12 gap-2 p-2`
-const Cell = tw.div`col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-3 xl:col-span-2`
+const Cell = tw.div`col-span-12 sm:col-span-6 md:col-span-4 lg:col-span-4`
 
 const TodoList = () => {
   // Alternative approach - async query selector:

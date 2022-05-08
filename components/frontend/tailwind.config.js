@@ -40,6 +40,13 @@ module.exports = {
     fontFamily: {
       sans: ['Rubik', 'sans-serif'],
     },
+    screens: {
+      sm: '526px',
+      md: '768px',
+      lg: '992px',
+      xl: '1200px',
+      '2xl': '1400px',
+    },
   },
   plugins: [],
 }

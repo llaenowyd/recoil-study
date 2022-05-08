@@ -6,9 +6,9 @@ import Heading from './Heading'
 import ItemEntryModal from './ItemEntryModal'
 import TodoList from './TodoList'
 
-const Container = tw.div`h-full flex`
-const Main = tw.div`h-full flex flex-col flex-1`
-const Content = tw.div`flex-1 flex-1`
+const Container = tw.div`h-full flex justify-center`
+const Main = tw.div`h-full flex flex-col flex-1 max-w-3xl`
+const Content = tw.div`flex-1`
 
 const DesktopLayout = () => {
   return (

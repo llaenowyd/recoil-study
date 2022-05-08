@@ -3,8 +3,6 @@ import { createGlobalStyle } from 'styled-components'
 import colors from 'tailwindcss/colors'
 import tw, { GlobalStyles as BaseStyles } from 'twin.macro'
 
-import { useThemeContext } from '../hooks/useThemeContext'
-
 const CustomStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
@@ -56,15 +54,11 @@ const CustomStyles = createGlobalStyle`
   }
 `
 
-const GlobalStyles = () => {
-  const theme = useThemeContext()
-
-  return (
-    <>
-      <BaseStyles />
-      <CustomStyles theme={theme} />
-    </>
-  )
-}
+const GlobalStyles = () => (
+  <>
+    <BaseStyles />
+    <CustomStyles />
+  </>
+)
 
 export default GlobalStyles
