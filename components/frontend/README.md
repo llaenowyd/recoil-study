@@ -9,9 +9,7 @@ management.
 It uses [twin](https://github.com/ben-rogerson/twin.macro), [Tailwind CSS](https://tailwindcss.com/) and
 [Styled Components](https://styled-components.com/) for styling.
 
-<video width="320" height="240" controls>
-  <source src="doc/color-scheme-sync.mp4" type="video/mp4">
-</video>
+https://user-images.githubusercontent.com/41239783/167279638-c410571f-eec6-47b7-8e87-e62e6c71ded8.mp4
 
 Following the techniques documented in [
 How to Sync Your React App with the System
