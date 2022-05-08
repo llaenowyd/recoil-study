@@ -1,0 +1,28 @@
+{
+  "name": "recoil-study",
+  "version": "1.0.0",
+  "description": "Todo App with Recoil",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "pretty": "prettier -w .",
+    "pretty-quick": "pretty-quick --staged",
+    "start-backend": "pnpm --filter todo-service run start",
+    "start-frontend": "pnpm --filter recoil-todo-cra run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llaenowyd/recoil-study.git"
+  },
+  "author": "Collin Monahan <llaenowyd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llaenowyd/recoil-study/issues"
+  },
+  "homepage": "https://github.com/llaenowyd/recoil-study#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.3"
+  }
+}
