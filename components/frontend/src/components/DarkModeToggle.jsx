@@ -3,7 +3,7 @@ import { useRecoilState } from 'recoil'
 import { Lock, Moon, Sun, Unlock } from 'lucide-react'
 import colors from 'tailwindcss/colors'
 import tw from 'twin.macro'
-import { RightSlideIn } from '@a110/rito'
+import { SlideIn } from '@a110/rito'
 
 import { DARK_COLOR_SCHEME, LIGHT_COLOR_SCHEME } from '../constants'
 import { useColorScheme } from '../hooks/useColorScheme'
@@ -70,13 +70,13 @@ const DarkModeToggle = () => {
 
   return (
     <Container onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-      <RightSlideIn hidden={!isHovered}>
+      <SlideIn hidden={!isHovered}>
         <LockIcon
           style={{ cursor: 'pointer' }}
           color={colors['text-primary']}
           onClick={toggleColorSchemeInheritSystem}
         />
-      </RightSlideIn>
+      </SlideIn>
       <ColorSchemeIcon
         style={{ cursor: 'pointer' }}
         color={colors['text-primary']}

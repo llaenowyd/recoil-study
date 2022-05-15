@@ -12,4 +12,4 @@
 ### Notes
 
 1. All local main.js 97.3kb
-2. Button, Modal, RightSlideIn from @a110/rito 96.7kb
+2. Button, Modal, SlideIn from @a110/rito 96.7kb
