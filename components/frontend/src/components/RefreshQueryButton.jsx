@@ -1,9 +1,8 @@
 import React from 'react'
 import { useRecoilRefresher_UNSTABLE } from 'recoil'
+import { Button } from '@a110/rito'
 
 import { todoListQuery } from '../recoil/todos'
-
-import Button from './Button'
 
 // This shows how to refresh a selector which causes its getter
 // to be invoked.

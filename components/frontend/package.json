@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@a110/rito": "^0.0.2",
     "@emotion/react": "^11.9.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -11,7 +12,6 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
-    "react-transition-group": "^4.4.2",
     "react-use": "^17.3.2",
     "recoil": "^0.7.2",
     "styled-components": "^5.3.5",

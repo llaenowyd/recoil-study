@@ -3,6 +3,7 @@ import { useRecoilState } from 'recoil'
 import { Lock, Moon, Sun, Unlock } from 'lucide-react'
 import colors from 'tailwindcss/colors'
 import tw from 'twin.macro'
+import { RightSlideIn } from '@a110/rito'
 
 import { DARK_COLOR_SCHEME, LIGHT_COLOR_SCHEME } from '../constants'
 import { useColorScheme } from '../hooks/useColorScheme'
@@ -10,8 +11,6 @@ import {
   colorSchemeInheritSystemState,
   colorSchemeState,
 } from '../recoil/settings'
-
-import RightSlideIn from './RightSlideIn'
 
 const Container = tw.div`
   flex

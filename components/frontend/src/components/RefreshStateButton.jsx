@@ -1,8 +1,7 @@
 import React from 'react'
+import { Button } from '@a110/rito'
 
 import { useTodoListState } from '../hooks/useTodoListState'
-
-import Button from './Button'
 
 // This shows how to manually use an async function to set the
 // value of an atom, along with loading and error states,

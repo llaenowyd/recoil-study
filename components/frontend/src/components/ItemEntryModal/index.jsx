@@ -1,9 +1,9 @@
 import React, { useCallback } from 'react'
 import { useRecoilState } from 'recoil'
 import tw from 'twin.macro'
+import { Modal } from '@a110/rito'
 
 import { itemEntryVisibleState } from '../../recoil/view'
-import Modal from '../Modal'
 
 import ItemEntry from './ItemEntry'
 

@@ -1,9 +1,9 @@
 import React, { useCallback } from 'react'
 import tw from 'twin.macro'
+import { Button } from '@a110/rito'
 
 import { useTodoListState } from '../hooks/useTodoListState'
 import { patchTodo } from '../requests'
-import Button from './Button'
 
 // tbd indicate completed / open
 // tbd ux on completed toggle

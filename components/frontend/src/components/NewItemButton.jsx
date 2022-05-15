@@ -1,9 +1,8 @@
 import React from 'react'
 import { useSetRecoilState } from 'recoil'
+import { Button } from '@a110/rito'
 
 import { itemEntryVisibleState } from '../recoil/view'
-
-import Button from './Button'
 
 const NewItemButton = ({ disabled }) => {
   const setItemEntryVisible = useSetRecoilState(itemEntryVisibleState)
