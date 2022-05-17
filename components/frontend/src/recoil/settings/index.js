@@ -5,7 +5,7 @@ export const colorSchemeState = atom({
   default: 'light',
 })
 
-export const colorSchemeInheritSystemState = atom({
-  key: 'colorSchemeInheritSystem',
+export const followDeviceColorSchemeState = atom({
+  key: 'followDeviceColorScheme',
   default: true,
 })

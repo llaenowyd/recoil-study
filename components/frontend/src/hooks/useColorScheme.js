@@ -1,19 +1,25 @@
-import { useRecoilValue } from 'recoil'
+import { useRecoilState } from 'recoil'
+import { useColorScheme as useRitoColorScheme } from '@a110/rito'
 
-import { ANY_COLOR_SCHEME } from '../constants'
 import {
-  colorSchemeInheritSystemState,
+  followDeviceColorSchemeState,
   colorSchemeState,
 } from '../recoil/settings'
 
 import { useColorSchemeMediaQuery } from './useColorSchemeMediaQuery'
 
 export const useColorScheme = () => {
-  const mediaQueryColorScheme = useColorSchemeMediaQuery()
-  const colorSchemeInheritSystem = useRecoilValue(colorSchemeInheritSystemState)
-  const colorScheme = useRecoilValue(colorSchemeState)
+  const deviceColorScheme = useColorSchemeMediaQuery()
+  const [followDeviceColorScheme, setFollowDeviceColorScheme] = useRecoilState(
+    followDeviceColorSchemeState
+  )
+  const [appColorScheme, setAppColorScheme] = useRecoilState(colorSchemeState)
 
-  return colorSchemeInheritSystem && ANY_COLOR_SCHEME !== mediaQueryColorScheme
-    ? mediaQueryColorScheme
-    : colorScheme
+  return useRitoColorScheme({
+    deviceColorScheme,
+    appColorScheme,
+    setAppColorScheme,
+    followDeviceColorScheme,
+    setFollowDeviceColorScheme,
+  })
 }
