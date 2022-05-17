@@ -1,12 +1,13 @@
 import { useRecoilState } from 'recoil'
-import { useColorScheme as useRitoColorScheme } from '@a110/rito'
+import {
+  useColorScheme as useRitoColorScheme,
+  useColorSchemeMediaQuery,
+} from '@a110/rito'
 
 import {
   followDeviceColorSchemeState,
   colorSchemeState,
 } from '../recoil/settings'
-
-import { useColorSchemeMediaQuery } from './useColorSchemeMediaQuery'
 
 export const useColorScheme = () => {
   const deviceColorScheme = useColorSchemeMediaQuery()
