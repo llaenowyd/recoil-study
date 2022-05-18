@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 importers:
   components/frontend:
     specifiers:
-      '@a110/rito': 0.0.6
+      '@a110/rito': 0.0.9
       '@babel/plugin-proposal-private-property-in-object': ^7.16.7
       '@emotion/react': ^11.9.0
       '@testing-library/jest-dom': ^5.14.1
@@ -20,7 +20,7 @@ importers:
       twin.macro: ^2.8.2
       web-vitals: ^2.1.0
     dependencies:
-      '@a110/rito': 0.0.6
+      '@a110/rito': 0.0.9
       '@emotion/react': 11.9.0_react@18.1.0
       '@testing-library/jest-dom': 5.16.4
       '@testing-library/react': 13.2.0_ef5jwxihqo6n7gxfmzogljlgcm
@@ -39,10 +39,10 @@ importers:
       '@babel/plugin-proposal-private-property-in-object': 7.16.7
 
 packages:
-  /@a110/rito/0.0.6:
+  /@a110/rito/0.0.9:
     resolution:
       {
-        integrity: sha512-7SsQoy2QjyoLtXMwByDmzh+ZvLMa8oM2hNhkpAoY9tIXNfBH1rUpkaMafOfKXuXr3h+lvrlHK+P+UG5A9xDaXg==,
+        integrity: sha512-V6xeZ+vXywXwvA1qy6cGN5g+syHlgV/O8eDozNKiAGSTwnypL/7Y0g9ocx4S9Y5RiqIelcjifaue/Mw6hwDtmQ==,
       }
     dependencies:
       react: 18.1.0
